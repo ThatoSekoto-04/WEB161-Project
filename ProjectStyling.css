@@ -1,0 +1,34 @@
+/*MARKET VENDORS & GUEST PAGE STYLING*/
+body{
+    Margin:0;
+}
+
+.container {
+height:100px;
+width:100%;  
+background-color: antiquewhite;
+grid-column: auto;
+text-align: center;
+
+}
+   
+.bg-video{
+    opacity: 0.5;
+    Width:100%;
+    height:70%;
+    Bottom:0;
+    position: absolute;
+    Object-fit:Cover;
+     z-index: -1;
+}
+
+#Vendors h2{
+    Margin:80px;
+    text-align: center;
+    font-size: 45PX;
+}
+#intro{
+text-align: center;
+    margin:0;
+    
+}
