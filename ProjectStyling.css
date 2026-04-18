@@ -6,26 +6,30 @@ body{
 .container {
 height:100px;
 width:100%;  
-background-color: antiquewhite;
+background-color: white;
 grid-column: auto;
 text-align: center;
 top:0;
+z-index: 10000;
 
-
+}
+.container h1{
+    font-size: 50px;
+    margin:0;
 }
    
 .bg-video{
     opacity: 0.5;
     Width:100%;
-    height:70%;
-    Bottom:0;
+    height:86%;
+    Bottom:10px;
     position: absolute;
     Object-fit:Cover;
      z-index: -1;
 }
 
 #Vendors h2{
-    Margin:80px;
+    Margin:50px;
     text-align: center;
     font-size: 45PX;
 }
@@ -33,4 +37,41 @@ top:0;
 text-align: center;
     margin:0;
     
+}
+
+main{
+    padding: 20px;
+}
+section{
+margin-bottom:50px;
+}
+.grid{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+list-style: none;}
+
+.Card{
+width: 300px;
+margin: 20px;
+background-color: antiquewhite;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+Ul#menu{
+padding-left: 4px;
+font-size: 14px;
+list-style:none;
+
+}
+
+nav.socials a{
+    Margin-right: 10px;
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+    justify-content: space-between;
+    text-align: center;
 }
