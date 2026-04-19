@@ -34,22 +34,22 @@ position: fixed;
 .bg-video{
     opacity: 0.7;
     Width:100%;
-    height:100%;
+    height:90%;
     top:0;
     position: fixed;
     Object-fit:cover;
-    z-index: -1;
+    z-index: 1;
 }
 
-.bg-video2{
-    opacity: 0.7;
+.performer-bg{
+    opacity: 0.4;
     Width:100%;
-    height:50%;
-    /*Bottom:10px;*/
-    position: absolute;
+    height:100%;
+    Bottom:10px;*/
+    position: fixed;
     Object-fit:cover;
-     z-index: -1;
-     top:115%;
+    z-index: 2;
+    top:70%;
 }
 
 #Vendors h2{
