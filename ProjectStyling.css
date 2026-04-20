@@ -81,6 +81,7 @@ position:sticky;
 z-index:0;
 top:0;
 Color:seashell;
+Color: #3b5c44;
 }
 
 #intro{
@@ -160,7 +161,7 @@ position:relative;
 /*Margin:50px;*/
 text-align: center;
 font-size: 50PX;
-Color: #3b5c44;
+
 }
 
 .performers-container{
@@ -170,31 +171,35 @@ gap: 20px;
 /*margin-top: 15%;*/
 justify-content: center;
 overflow: hidden;
-align-items: start;
+
 }
 
 #kujenga{
     align-items: start;
     width: 100%;
-    height: 200%;
+    height: 300px;
     object-fit: cover;
+    box-shadow: #3b5c44 0px 5px 15px;
 }
 
 #Shekhinah{
     width: 300px;
     height: 300px;
     object-fit: cover;
+    box-shadow: #3b5c44 0px 5px 15px;
 }
 
 #Jiavan{
     width: 300px;
     height: 300px;
     object-fit: cover;
+    box-shadow: #3b5c44 0px 5px 15px;
 }
 
-.performers-container .figurecaption{
+
+.figurecaption{
     text-align: center;
-    margin-top: 10px;
-    font-size: 16px;
-    color: black;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #3b5c44;
 }
