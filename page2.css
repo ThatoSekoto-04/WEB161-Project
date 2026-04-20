@@ -1,8 +1,47 @@
 body{
     Margin:0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background-color: #3b5c44;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgb(46, 84, 46);
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.navlinks{
+    list-style: none; 
+    display: flex;
+    gap: 36px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+.navlinks a:hover{
+    color: black;
+}
+
 
 .container {
 height:100px;
@@ -11,50 +50,60 @@ background-color: rgb(248, 222, 188);
 grid-column: auto;
 text-align: center;
 top:0;
-bottom: 0;
-position: relative;
-z-index: 10;
+z-index: 1000;
+position: fixed;
 
 }
 .container h1{
-    font-size: 50px;
-    margin:0;
+   
+font-size: 50px;
+margin:10px;
 }
+ 
 .bg-video{
-    opacity: 0.7;
-    Width:100%;
-    height: 100%;
-    Bottom:10px;
-    position: fixed;
-    Object-fit:Cover;
-     z-index: -1;
-     
+opacity: 0.7;
+Width:100%;
+height: 100%;
+top:11%;
+position: fixed;
+Object-fit:cover;
+z-index: -2;
 }
-#Details h2{
-    Margin:50px;
-    text-align: center;
-    font-size: 45PX;
+
+
+h2{
+/*Margin:90px;*/
+text-align: center;
+font-size: 45PX;
+position:sticky;
+z-index:0;
+top:0;
+Color:seashell;
 }
-#firstP, #secondP, #thirdP{
-    text-align: center;
+
+#firstP, #SecondP, #thirdP {
+text-align: center;
+margin:0;  
 }
+
 main{
-    padding: 20px;
+padding: 20px;
 }
+
 section{
-margin-bottom:50px;
+margin-bottom:30px;
 }
 .grid{
 display: flex;
 flex-wrap: wrap;
 gap: 20px;
 list-style: none;
-justify-content: center;
-}
+justify-content: center;}
+
 .Card{
 width: 300px;
 margin: 20px;
-background-color: rgb(248, 222, 188);
+ background-color: #3b5c44;
 padding: 20px;
 border-radius: 15px;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -74,23 +123,19 @@ margin-top:8px;
 
 }
 .Card p{
-    margin:0;
-    text-align:left;
+margin:0;
+text-align:left;
 }
 
 .Card h3{
+text-align:center 
+}
+#location{
     text-align: center;
 }
-nav.Socials a{
-    Margin-right: 20px;
-    font-size: 14px;
-    text-decoration:none;
-    color: black;
-    justify-content: space-between;
-   text-align:center;
-}
-#Schedule h2{
-    Margin:50px;
-    text-align: center;
-    font-size: 45PX;
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
 }
