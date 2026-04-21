@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background-color: #3b5c44;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgb(46, 84, 46);
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+.navlinks a:hover{
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 60px 80px;
+    gap: 40px;
+    background-color:#3b5c44;
+    min-height: 420px;
+}
+.maintext{
+    flex: 1;
+    max-width: 460px;
+}
+
+.maintext h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.15;
+}
+
+.maintext p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    max-width: 500px;
+}
+.image{
+    border-radius: 18px;
+
+}
+
+.image img{
+    width: 420px;
+    height: 350px;
+    border-radius: 20px;
+    display: block;
+
+}
